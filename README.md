@@ -34,6 +34,7 @@ new-year-automation/
 └── requirements.txt
 
 ## Author
-**ZALE Hector**
+**ZALE Hector**, Linux & Cybersecurity Freelancer
+Remote – Available for freelance work
 
 
