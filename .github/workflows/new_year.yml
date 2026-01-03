@@ -10,13 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  - name: Checkout repository
+    uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+  - name: Debug - show repo tree
+    run: |
+      echo "Current directory:"
+      pwd
+      echo "Repository content:"
+      ls -R
 
-      - name: Run New Year Script
-        run: python script/new_year.py
+  - name: Run New Year Script
+    run: python script/new_year.py
